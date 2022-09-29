@@ -1,21 +1,7 @@
-
-
 //SideBar Toggle
 let sidebarOpen = false;
 // const sideBar = document.getElementById('sidebar');
 const sideBar = document.querySelector('#sidebar');
-
-
-
-// function openSideBar(){
-//     if(!sidebarOpen){
-//         // console.log(sidebarOpen);
-//         sideBar.classList.add('sidebar-responsive');
-        
-//         sidebarOpen = true;
-//     }
-// }   
-
 
 const openSideBar = ()=>{
     if(!sidebarOpen){
