@@ -1,6 +1,6 @@
 //SideBar Toggle
 let sidebarOpen = false;
-// const sideBar = document.getElementById('sidebar');
+
 const sideBar = document.querySelector('#sidebar');
 
 const openSideBar = ()=>{
@@ -16,7 +16,6 @@ const closeSideBar = () => {
         sidebarOpen = false;
     }
 }
-
 
 // chart
 var barChartsOptions = {
